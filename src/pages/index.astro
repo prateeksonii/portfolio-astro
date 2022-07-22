@@ -1,4 +1,5 @@
 ---
+import Header from "../components/Header.astro";
 import Nav from "../components/Nav.astro";
 import Layout from "../layouts/Layout.astro"
 
@@ -6,9 +7,5 @@ import Layout from "../layouts/Layout.astro"
 
 <Layout title="Prateek Soni">
 	<Nav />
-	<div class="w-3/5 mx-auto my-8 space-y-4">
-		<h4 class="text-emerald-400 text-xl">Hi, my name is</h4>
-		<h2 class="text-zinc-100 text-6xl font-black">Prateek Soni</h2>
-		<h1 class="text-zinc-500 text-6xl font-black">I build things for the web.</h1>
-	</div>
+	<Header />
 </Layout>
